@@ -1,8 +1,11 @@
-import numpy as np
-import os
-rows, columns = os.popen('stty size', 'r').read().split()
-rows = int(rows)
-columns = int(columns)
+# import numpy as np
+# import os
+# rows, columns = os.popen('stty size', 'r').read().split()
+# rows = int(rows)
+# columns = int(columns)
 
-X = np.zeros(rows, columns)
-print(X)
+# X = np.zeros(rows, columns)
+# print(X)
+
+
+# TODO: Create blank board
