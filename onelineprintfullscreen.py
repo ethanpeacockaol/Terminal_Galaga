@@ -40,8 +40,8 @@ def welcome_screen():
 	columns = int(columns)
 
 	# print game banner
-	_ = [[print('~', end='') for i in range(columns)] for i in range(rows-1)]
-	a = input(_ = [print('-', end='') for i in range(columns)])
+	_ = [[print('~', end='') for i in range(columns)] for i in range(rows)]
+#	a = input([print('-', end='') for i in range(columns)])
 
 
 
@@ -51,3 +51,9 @@ def welcome_screen():
 if __name__ == '__main__':
     # show welcome screen
     welcome_screen()
+
+    # flash screen to show shit
+    for i in range(int(input("how many"))):
+        os.system("clear")
+        welcome_screen()
+    
