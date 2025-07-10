@@ -1,3 +1,9 @@
+so possibly for simplicity lets reduce full columnb and row draw space back to like a 50 by 50 square so we get faster performance on slower stuff and its less jittery?
+
+
+
+
+
 so we need to add a new file to test some things
 lets basically clone the game of life draw board
 our ship will be a thing like this
