@@ -1,0 +1,45 @@
+so we need to add a new file to test some things
+lets basically clone the game of life draw board
+our ship will be a thing like this
+ .
+...
+
+
+enemies will be a thing like this
+...
+...
+...
+
+and our draw board dots will be the game of liffe smaller dots right
+
+so lets make thtat like clone game of life draw mechanisms then write some loops
+to gently or slowly try to move the ship from middle of draw board to right
+then all the way to left
+
+if we get that working we can try to add preprogrammed animation of enemy coming onto screen and moving down or something
+
+so we need draw board logic
+
+insertion into matricy logic and deletion of previous location logic
+
+and that should go
+
+we can then work on using the modules mentioned by gemini to try to capture single character input as a time frame but idk if that will work 
+
+
+so basically lets add another todo this may be easier to do first
+
+look at draw yes no yes no yes no
+
+make  a single output stream numberoline with gemini modules mentioned that lets us a to lower number and d to increase number like wasd w left and d right a up and s down then we have duplicate of arrow keys and i know how to check wasd input in python not arrow keys
+but hey how do you caputre arrow keys?? we could make an arrow key one that doesnt update and redraw until you move
+
+so every key press is waitng on enter
+we can move hit enter and screen draws new frame 
+
+but once that works how do we delete need to press enter
+
+
+okay cool read these TODOS
+
+implement them and clean up all other scratch files
